@@ -1,0 +1,8 @@
+#root {
+  height: 100dvh;
+  background-color: #c98c5d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
