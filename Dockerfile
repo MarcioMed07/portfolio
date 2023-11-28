@@ -34,4 +34,4 @@ COPY --from=prerelease /usr/src/app/package.json .
 # run the app
 USER bun
 EXPOSE 8007/tcp
-ENTRYPOINT [ "bun", "run", "preview", "-p", "8007", "--host" ]
+ENTRYPOINT [ "bun", "run", "preview", "--port", "8007", "--host" ]
