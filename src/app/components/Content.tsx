@@ -27,7 +27,7 @@ export default function Content() {
           >
             <img
               style={{ width: "250px", borderRadius: "100%", margin: "auto" }}
-              src="src/assets/profile.jpg"
+              src="/profile.jpg"
             />
             {about}
           </Box>

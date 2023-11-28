@@ -27,7 +27,7 @@ export default function Header() {
         }}
       >
         <Box sx={{ display: "flex", gap: 1, alignItems: "center" }}>
-          <img height={20} src="src/assets/logo.svg" />
+          <img height={20} src="/logo.svg" />
           <Typography>Márcio Medeiros</Typography>
         </Box>
         <Box>
