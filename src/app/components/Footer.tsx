@@ -10,7 +10,7 @@ export default function Footer() {
         <Box
           sx={{
             display: "grid",
-            gridTemplateColumns: "max-content max-content",
+            gridTemplateColumns: {sm:"max-content max-content"},
             gap: "0 1em",
             margin: "auto",
             justifyContent: "center",

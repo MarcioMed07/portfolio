@@ -28,6 +28,7 @@ export default function Item({ item }: { item: ItemType }) {
           width: "100%",
           height: "100%",
           background: (theme) => theme.palette.primary[50],
+          flexDirection:{xs:"column", sm:"row"}
         }}
       >
         <Box
