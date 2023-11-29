@@ -81,6 +81,7 @@ export const defaultText = {
   visit: "Visit",
   source: "Source Code",
   projects: "You can check out some of my projects down bellow:",
+  contact: "Contact me",
 };
 
 export const ptBRText = {
@@ -90,6 +91,7 @@ export const ptBRText = {
   visit: "Visite",
   source: "Código Fonte",
   projects: "Abaixo você pode conferir alguns dos meus projetos:",
+  contact: "Fale comigo",
 };
 
 export const defaultAbout = (
