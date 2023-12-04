@@ -26,7 +26,10 @@ export default function Header() {
           margin: "auto",
         }}
       >
-        <Typography>Márcio Medeiros</Typography>
+        <Box sx={{ display: "flex", gap: 1, alignItems: "center" }}>
+          <img height={20} src="/logo.svg" />
+          <Typography>Márcio Medeiros</Typography>
+        </Box>
         <Box>
           <Button component="a" variant="plain" href="#about">
             {text.about}
