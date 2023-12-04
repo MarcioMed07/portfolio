@@ -50,7 +50,7 @@ export const defaultContent = {
     },
     galaxyPong:{
       name: "Galaxy Pong",
-      image: "src/assets/galaxy-pong.png",
+      image: "/galaxy-pong.png",
       url: "https://marciomed07.itch.io/galaxy-pong",
       description: "A Pong clone with a space-themed twist, made with Unity.",
       source: "https://github.com/MarcioMed07/Galaxy-Pong",
