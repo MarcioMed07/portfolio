@@ -28,6 +28,7 @@ export const defaultContent = {
       image: "src/assets/portfolio.png",
       description: "This portfolio 😊",
       tech: ["Typescript", "Bun", "Vite", "React", "Material UI"],
+      source:"https://github.com/MarcioMed07/portfolio"
     },
   },
   games: {
@@ -47,6 +48,14 @@ export const defaultContent = {
       source: "",
       tech: ["Godot", "Gdscript"],
     },
+    galaxyPong:{
+      name: "Galaxy Pong",
+      image: "src/assets/galaxy-pong.png",
+      url: "https://marciomed07.itch.io/galaxy-pong",
+      description: "A Pong clone with a space-themed twist, made with Unity.",
+      source: "https://github.com/MarcioMed07/Galaxy-Pong",
+      tech: ["Unity", "C#"],
+    }
   },
 };
 
@@ -70,6 +79,9 @@ export const ptBRContent = {
     canYouMoses: {
       description: "Inscrição para Low Effort Game Jam 1",
     },
+    galaxyPong:{
+      description:"Um clone de Pong com uma temática espacial, feito com Unity."
+    }
   },
 };
 

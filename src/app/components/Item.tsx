@@ -78,12 +78,12 @@ export default function Item({ item }: { item: ItemType }) {
             }}
           >
             {item.url && (
-              <Button component="a" href={item.url}>
+              <Button component="a" target="_blank" href={item.url}>
                 {text.visit}
               </Button>
             )}
             {item.source && (
-              <Button component="a" href={item.source}>
+              <Button component="a" target="_blank" href={item.source}>
                 {text.source}
               </Button>
             )}
