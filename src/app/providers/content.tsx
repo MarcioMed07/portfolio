@@ -6,13 +6,21 @@ export const bgColors: { [key: string]: string } = {
 
 export const defaultContent = {
   web: {
+    quotomizer: {
+      name: "Quotomizer",
+      image: "/quotomizer.png",
+      description: "Quotomizer, a web app for daily inspiration, displays random quotes with author info.",
+      url: "https://quotomizer.vercel.app/",
+      source: "https://github.com/MarcioMed07/Quotomizer",
+      tech: ["Typescript", "Node", "Yarn", "Nuxt", "Vercel", "TailWind"],
+    },
     howLong: {
       name: "How Long",
       image: "/how-long.png",
       description: "Application to calculate the time difference between dates",
       url: "https://marciomed07.github.io/how-long/",
       source: "https://github.com/MarcioMed07/how-long",
-      tech: ["Javascript", "Node", "NPM", "React"],
+      tech: ["Javascript", "Node", "NPM", "React", "GhPages"],
     },
     friendDebt: {
       name: "Friend debt",
@@ -21,14 +29,14 @@ export const defaultContent = {
         "Application that keeps track of how much money you have lent or borrowed from your friends",
       url: "https://marciomed07.github.io/friend-debt/",
       source: "https://github.com/MarcioMed07/friend-debt",
-      tech: ["Typescript", "Node", "NPM", "React", "Ant Design"],
+      tech: ["Typescript", "Node", "NPM", "React", "Ant Design", "GhPages"],
     },
     portfolio: {
       name: "Portfolio",
       image: "/portfolio.png",
       description: "This portfolio 😊",
-      tech: ["Typescript", "Bun", "Vite", "React", "Material UI"],
-      source:"https://github.com/MarcioMed07/portfolio"
+      tech: ["Typescript", "Bun", "Vite", "React", "Material UI", "Docker"],
+      source: "https://github.com/MarcioMed07/portfolio"
     },
   },
   games: {
@@ -38,7 +46,7 @@ export const defaultContent = {
       url: "https://marciomed07.itch.io/gmg",
       source: "https://github.com/MarcioMed07/GMG",
       description: "Demonstration of maze generation algorithms",
-      tech: ["Godot", "Gdscript"],
+      tech: ["Godot", "Gdscript", "Ichi.io"],
     },
     canYouMoses: {
       name: "Can you, Moses ?",
@@ -46,21 +54,24 @@ export const defaultContent = {
       url: "https://marciomed07.itch.io/can-you-moses",
       description: "Registration for Low Effort Game Jam 1",
       source: "",
-      tech: ["Godot", "Gdscript"],
+      tech: ["Godot", "Gdscript", "Ichi.io"],
     },
-    galaxyPong:{
+    galaxyPong: {
       name: "Galaxy Pong",
       image: "/galaxy-pong.png",
       url: "https://marciomed07.itch.io/galaxy-pong",
       description: "A Pong clone with a space-themed twist, made with Unity.",
       source: "https://github.com/MarcioMed07/Galaxy-Pong",
-      tech: ["Unity", "C#"],
+      tech: ["Unity", "C#", "Ichi.io"],
     }
   },
 };
 
 export const ptBRContent = {
   web: {
+    quotomizer: {
+      description: "Quotomizer, uma aplicação web para inspiração diária, exibe citações aleatórias"
+    },
     howLong: {
       description: "Aplicação para calcular a diferença de tempo entre datas",
     },
@@ -79,8 +90,8 @@ export const ptBRContent = {
     canYouMoses: {
       description: "Inscrição para Low Effort Game Jam 1",
     },
-    galaxyPong:{
-      description:"Um clone de Pong com uma temática espacial, feito com Unity."
+    galaxyPong: {
+      description: "Um clone de Pong com uma temática espacial, feito com Unity."
     }
   },
 };
